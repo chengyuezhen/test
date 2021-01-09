@@ -33,7 +33,7 @@ public class demo1 {
 		String base = "0123456789"; 
 		int size = base.length();
 		Random r = new Random();
-		StringBuffer sb = new StringBuffer();
+		StringBuffer sb = new StringBuffer(); 
 		for(int i=1;i<=5;i++){
 			//产生0到size-1的随机值
 			int index = r.nextInt(size);
@@ -46,7 +46,7 @@ public class demo1 {
 			sb.append(c);
 		}
 		return sb.toString();
-	}
+	}											
    
    public  static String getPassword() {
 		String base = "0123456789"; 
